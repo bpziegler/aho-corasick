@@ -25,7 +25,7 @@ public class TimeTrial {
 
 		AhoCorasick tree = new AhoCorasick();
 		BufferedReader reader = new BufferedReader(new InputStreamReader(
-				new FileInputStream("c:/users/bziegler/Desktop/words.txt")));
+				new FileInputStream("D:/NoSave/git/aho-corasick/words.txt")));
 		int numLine = 0;
 		if (includeDict) {
 			String line;
